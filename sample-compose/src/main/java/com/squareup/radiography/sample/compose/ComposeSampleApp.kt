@@ -76,7 +76,7 @@ internal const val LIVE_HIERARCHY_TEST_TAG = "live-hierarchy"
         horizontalGravity = Alignment.CenterHorizontally,
         verticalArrangement = Arrangement.spacedBy(16.dp)
     ) {
-      Image(imageResource(drawable.logo), Modifier.height(128.dp))
+      RadiographyLogo(Modifier.height(128.dp))
 
       TextField(
           value = username,
